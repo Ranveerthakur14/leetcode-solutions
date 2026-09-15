@@ -1,3 +1,4 @@
+package Arrays;
 class Solution {
     public int singleNumber(int[] nums) {
         int result=0;

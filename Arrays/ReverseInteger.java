@@ -1,7 +1,6 @@
 class ReverseInterger {
-public:
-    int reverse(int x) {
-        long long rev=0;
+public int reverse(int x) {
+         long rev=0;
          
          while(x!=0){
             int lastdigit =x%10;
@@ -9,7 +8,7 @@ public:
 
             rev =rev*10+lastdigit;
 
-            if(rev > INT_MAX ||rev< INT_MIN )
+            if(rev > Integer.MAX_VALUE ||rev< Integer.MIN_VALUE )
                 return 0;
             }
             return (int)rev;
